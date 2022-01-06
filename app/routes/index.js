@@ -2,6 +2,7 @@ const epxress = require('express')
 const router = epxress.Router()
 const fs = require('fs')
 
+
 const pathRouter = `${__dirname}`
 
 const removeExtension = (fileName) => {
